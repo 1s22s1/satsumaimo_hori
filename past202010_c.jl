@@ -23,7 +23,7 @@ function solve()
 
             for x ∈ -1:1:1
                 for y ∈ -1:1:1
-                    if 1 ≤ i+x ≤ n && 1 ≤ j+y ≤ m
+                    if 1 ≤ i + x ≤ n && 1 ≤ j + y ≤ m
                         if a[i+x][j+y] == "#"
                             count += 1
                         end

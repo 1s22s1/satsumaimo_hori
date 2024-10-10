@@ -18,7 +18,7 @@ function solve()
     max_outcome = -1
 
     for i ∈ 1:1000*1000
-        gram = w*1000/i
+        gram = w * 1000 / i
 
         if a ≤ gram ≤ b
             min_outcome = min(min_outcome, i)

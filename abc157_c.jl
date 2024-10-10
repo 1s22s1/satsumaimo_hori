@@ -21,7 +21,7 @@ function solve()
             flag = true
 
             for (s, c) ∈ conditions
-                if i ÷ 10^(1-s) % 10 ≠ c
+                if i ÷ 10^(1 - s) % 10 ≠ c
                     flag = false
                 end
             end
@@ -37,7 +37,7 @@ function solve()
             flag = true
 
             for (s, c) ∈ conditions
-                if i ÷ 10^(2-s) % 10 ≠ c
+                if i ÷ 10^(2 - s) % 10 ≠ c
                     flag = false
                 end
             end
@@ -53,7 +53,7 @@ function solve()
             flag = true
 
             for (s, c) ∈ conditions
-                if i ÷ 10^(3-s) % 10 ≠ c
+                if i ÷ 10^(3 - s) % 10 ≠ c
                     flag = false
                 end
             end

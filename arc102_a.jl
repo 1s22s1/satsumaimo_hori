@@ -21,7 +21,8 @@ function solve()
         c = k - a
 
         if (b+c)%k == 0
-            outcome += dict[a%k]*dict[b%k]*dict[c%k]
+            # outcome += dict[a%k]*dict[b%k]*dict[c%k]
+            outcome += get(dict, a%k, 0)*get(dict, b%k, 0)*get(dict, c%k, 0)
         end
     end
 
